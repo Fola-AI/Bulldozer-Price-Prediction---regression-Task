@@ -21,7 +21,7 @@ Kaggle also provides a data dictionary
 
 The goal is to minimize RMSLE.
 
-🔑 Key Steps in the Notebook
+### 🔑 Key Steps in the Notebook
 
 Exploratory Data Analysis (EDA):
 
@@ -35,7 +35,7 @@ Converting date columns to datetime.
 
 Creating new time-based features.
 
-Modeling:
+### Modeling:
 
 Training regression models (e.g., Random Forest, Gradient Boosting).
 
@@ -47,7 +47,7 @@ Comparing model performance using RMSLE.
 
 Generating predictions on validation/test sets.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Python 3.9+
 
@@ -63,7 +63,7 @@ xgboost / lightgbm → Advanced gradient boosting methods
 
 jupyter → Interactive environment
 
-🚀 Getting Started
+### 🚀 Getting Started
 
 Clone the repository:
 
@@ -80,7 +80,7 @@ Launch Jupyter Notebook:
 
 jupyter notebook Regression_BulldozerPricePrediction.ipynb
 
-📊 Results
+### 📊 Results
 
 The project demonstrates how tree-based models like Random Forests and Gradient Boosting perform well on structured data.
 
@@ -88,7 +88,7 @@ Feature engineering (especially handling dates and categorical variables) signif
 
 Achieved a competitive RMSLE score comparable to Kaggle benchmarks.
 
-📌 Future Improvements
+### 📌 Future Improvements
 
 Implement deep learning models for regression.
 
@@ -98,7 +98,7 @@ Automate hyperparameter tuning with Optuna or Bayesian Optimization.
 
 Deploy the trained model as an API or simple web app.
 
-📜 License
+### 📜 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
